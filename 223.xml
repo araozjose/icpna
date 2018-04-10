@@ -1,0 +1,241 @@
+
+<!doctype html>
+<html lang="es-PE" class="no-js">
+<head>
+<title>Promako Construcciones</title>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css" media="screen,projection" />
+<link rel="stylesheet" type="text/css" href="css/custom.css" media="screen">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="screen">
+</head>
+
+
+
+<body>
+<header>
+
+<ul id="dropdownProyecto" class="dropdown-content">
+<li><a href="proyectos/proyectos-integrales.html">Integrales</a></li>
+<li><a href="proyectos/proyectos-publicos.html">Publicos</a></li>
+</ul>
+
+<ul id="dropdownServicio" class="dropdown-content">
+<li><a href="servicios/servicio-integral-metal-mecanica.html">Servicio Integral de Metal Mecanica</a></li>
+<li><a href="servicios/servicio-obras-civiles.html">Obras Civiles</a></li>
+<li><a href="servicios/servicio-instalaciones-electricas.html">Instalaciones Electricas</a></li>
+<li><a href="servicios/servicio-mantenimiento.html">Servicios de Mantenimiento</a></li>
+</ul>
+
+<ul id="dropdownConsultoria" class="dropdown-content">
+<li><a href="consultoria/consultoria-gestion-proyectos.html">Gestion de Proyectos</a></li>
+<li><a href="consultoria/consultoria-gestion-procesos.html">Gestion de Procesos</a></li>
+<li><a href="consultoria/consultoria-ingenieria.html">Ingenieria</a></li>
+</ul>
+<div>
+
+<ul class="side-nav" id="mobile-demo">
+<li><a href="nosotros.html">Nuestra Empresa</a></li>
+
+<li class="no-padding">
+<ul class="collapsible collapsible-accordion">
+<li>
+<a class="collapsible-header waves-effect waves-ambar">Proyectos<i class="material-icons right">arrow_drop_down</i></a>
+<div class="collapsible-body">
+
+<ul>
+<li><a href="proyectos/proyectos-integrales.html">Integrales</a></li>
+<li><a href="proyectos/proyectos-publicos.html">Publicos</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li class="no-padding">
+<ul class="collapsible collapsible-accordion">
+<li>
+<a class="collapsible-header waves-effect waves-ambar">Servicios<i class="material-icons right">arrow_drop_down</i></a>
+<div class="collapsible-body">
+
+<ul>
+<li><a href="servicios/servicio-integral-metal-mecanica.html">Servicio Integral de Metal Mecanica</a></li>
+<li><a href="servicios/servicio-obras-civiles.html">Obras Civiles</a></li>
+<li><a href="servicios/servicio-instalaciones-electricas.html">Instalaciones Electricas</a></li>
+<li><a href="servicios/servicio-mantenimiento.html">Servicios de Mantenimiento</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li class="no-padding">
+<ul class="collapsible collapsible-accordion">
+<li>
+<a class="collapsible-header waves-effect waves-ambar">Consultoria<i class="material-icons right">arrow_drop_down</i></a>
+<div class="collapsible-body">
+
+<ul>
+<li><a href="consultoria/consultoria-gestion-proyectos.html">Gestion de Proyectos</a></li>
+<li><a href="consultoria/consultoria-gestion-procesos.html">Gestion de Procesos</a></li>
+<li><a href="consultoria/consultoria-ingenieria.html">Ingenieria</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</li>
+<li><a href="contacto.html">Contactenos</a></li>
+</ul>
+</div>
+<div class="">
+<nav class="white no-shadow">
+<div class="nav-wrapper container">
+<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+<ul class="left">
+<li>
+<a href="index.html" class="brand-logo"><img class="brand-logo" src="images/logo.png"></a>
+</li>
+</ul>
+<ul class="right hide-on-med-and-down">
+<li>
+<a href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a>
+</li>
+<li>
+<a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+</li>
+<li>
+<a href="https://linkedin.com/"><i class="fa fa-linkedin"></i> </a>
+</li>
+<li>
+<a href="https://facebook.com/"><i class="fa fa-facebook"></i> </a>
+</li>
+</ul>
+</div>
+</nav>
+<nav class="white no-shadow hide-on-med-and-down">
+<div class="nav-wrapper nav-padding container">
+<ul class="">
+<li><a href="nosotros.html">Nuestra Empresa</a></li>
+
+<li><a class="dropdown-button" href="proyectos/proyectos.html" data-activates="dropdownProyecto">Proyectos<i class="material-icons right">arrow_drop_down</i></a></li>
+
+<li><a class="dropdown-button" href="servicios/servicios.html" data-activates="dropdownServicio">Servicios<i class="material-icons right">arrow_drop_down</i></a></li>
+<li><a class="dropdown-button" href="consultoria/consultoria.html" data-activates="dropdownConsultoria">Consultoria<i class="material-icons right">arrow_drop_down</i></a></li>
+<li><a href="contacto.html">Contactenos</a></li>
+</ul>
+</div>
+</nav>
+</div>
+</header>
+<main>
+<div class="row">
+<div class="slider">
+<ul class="slides">
+<li>
+<img src="images/pixel.jpg" data-src-lazy="images/slide1.jpg" id="sliderFirst"> 
+<div class="caption center-align">
+<h3>Bienvenidos a PROMAKO</h3>
+<h5 class="light grey-text text-lighten-3">Construcciones - Ingeniería &amp; Proyectos</h5>
+</div>
+</li>
+<li>
+<img src="images/pixel.jpg" data-src-lazy="images/slide2.jpg" data-class-lazy="">
+<div class="caption center-align">
+<h3></h3>
+<h5 class="light grey-text text-lighten-3"></h5>
+</div>
+</li>
+<li>
+<img src="images/pixel.jpg" data-src-lazy="images/slide3.jpg" data-class-lazy="">
+<div class="caption center-align">
+<h3></h3>
+<h5 class="light grey-text text-lighten-3"></h5>
+</div>
+</li>
+</ul>
+</div>
+<div class="container">
+<h3>Trabajos Recientes</h3>
+<p class="flow-text">Slgunos trabajos que hemos realizado</p>
+<div class="carousel">
+<a class="carousel-item" href="#one!"><img src="images/pixel.jpg" data-src-lazy="images/Imagen13a.jpg" id="carouselFirst" data-class-lazy=""></a>
+<a class="carousel-item" href="#two!"><img src="images/pixel.jpg" data-src-lazy="images/Imagen13b.jpg" data-class-lazy=""></a>
+<a class="carousel-item" href="#three!"><img src="images/pixel.jpg" data-src-lazy="images/Imagen13c.jpg" data-class-lazy=""></a>
+<a class="carousel-item" href="#four!"><img src="images/pixel.jpg" data-src-lazy="images/Imagen14a.jpg" data-class-lazy=""></a>
+<a class="carousel-item" href="#five!"><img src="images/pixel.jpg" data-src-lazy="images/Imagen14b.jpg" data-class-lazy=""></a>
+<a class="carousel-item" href="#five!"><img src="images/pixel.jpg" data-src-lazy="images/Imagen14c.jpg" data-class-lazy=""></a>
+</div>
+</div>
+<div class="container">
+<h3>¿Porque Elegirnos?</h3>
+<p class="flow-text">Algunas razones del porque elegir PROMAKO para tu proximo proyecto</p>
+<img src="images/pixel.jpg" data-src-lazy="images/choose.jpg" alt="">
+</div>
+</div>
+<div class="container">
+</div>
+</main>
+<footer class="page-footer amber">
+<div class="container">
+<div class="row">
+<div class="col l6 s12">
+<h5 class="white-text">Envianos un mensaje</h5>
+<form class="col s12" action="contact.php" method="post" id="contactForm">
+<div class="row">
+<div class="input-field col s6">
+<i class="material-icons prefix white-text">account_circle</i>
+<input id="name" name="name" type="text" class="validate white-text footer">
+<label for="name" class="white-text">Nombre</label>
+</div>
+<div class="input-field col s6">
+<i class="material-icons prefix white-text">mail_outline</i>
+<input id="email" name="email" type="email" class="validate white-text footer">
+<label for="email" class="white-text">Correo</label>
+</div>
+<div class="input-field col s12">
+<i class="material-icons prefix white-text">mode_edit</i>
+<textarea id="message" name="message" class="materialize-textarea white-text footer"></textarea>
+<label for="message" class="white-text">Mensaje</label>
+</div>
+<div class="input-field col  s12">
+<button class="btn right waves-effect waves-ambar" type="submit" name="action">Enviar
+<i class="material-icons right button footer">send</i>
+</button>
+</div>
+</div>
+</form>
+</div>
+<div class="footer-text-right col offset-l2 l4 s12">
+<h5 class="white-text">Contacto</h5>
+<ul>
+<li><span class="white-text">Promako Construcciones<br>Av. ,Los Olivos , Lima, Peru</span></li>
+<li><a href="/cdn-cgi/l/email-protection#3040425f5d515b5f7040425f5d515b5f535f5e434442455353595f5e55431e535f5d" class="white-text"><span class="__cf_email__" data-cfemail="0272706d6f63696d4272706d6f63696d616d6c7176707761616b6d6c67712c616d6f">[email&#160;protected]</span></a></li>
+<li><span class="white-text">Tel: +51 (01) 622 4836</span></li>
+<li>
+<a href="/cdn-cgi/l/email-protection#bdcdcfd2d0dcd6d2fdcdcfd2d0dcd6d2ded2d3cec9cfc8deded4d2d3d8ce93ded2d0" class="white-text"><i class="small right footer fa fa-envelope-o"></i></a>
+<a href="https://www.linkedin.com/" target="_blank"><i class="small right footer fa fa-linkedin"></i></a>
+<a href="https://plus.google.com/" target="_blank"><i class="small right footer fa fa-google-plus"></i></a>
+<a href="https://facebook.com/" target="_blank"><i class="small right footer fa fa-facebook"></i></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer-copyright">
+<div class="container">
+© 2016 Promako Construcciones, All Rights Reserved
+</div>
+</div>
+</footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/d07b1474/cloudflare-static/email-decode.min.js"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+      basicLoad.initializeIndex();
+    });
+  </script>
+</body>
+</html>
